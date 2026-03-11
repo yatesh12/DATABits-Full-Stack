@@ -1,4 +1,4 @@
-### DATABits — Data Preprocessing Platform
+### DATABits: Data Preprocessing Platform
 
 A data preprocessing toolkit that accelerates ETL and ML data preparation with AI-driven profiling, quality scoring, and reusable transformation building blocks. Built for data scientists and engineers who want clean, auditable datasets fast.
 
