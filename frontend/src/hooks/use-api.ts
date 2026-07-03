@@ -328,8 +328,8 @@ import { useCallback, useRef, useState } from "react";
 /** Environment variable (client-side safe) */
 const API_BASE_URL =
   typeof window !== "undefined"
-    ? (window as any).NEXT_PUBLIC_API_URL ?? "http://localhost:5000/api"
-    : "http://localhost:5000/api";
+    ? (window as any).NEXT_PUBLIC_API_URL ?? "http://localhost:8000/api/v1"
+    : "http://localhost:8000/api/v1";
 
 /** Generic API response shape */
 interface ApiResponse<T> {

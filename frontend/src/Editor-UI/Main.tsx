@@ -584,7 +584,7 @@ export function DataPreprocessingApp() {
     if (!datasetId || activeTab !== "Random Sample") return
 
     try {
-      const response = await fetch(`http://localhost:5000/api/dataset/${datasetId}/refresh-random`, {
+      const response = await fetch(`http://localhost:8000/api/v1/dataset/${datasetId}/refresh-random`, {
         method: "POST",
       })
 
